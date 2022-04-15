@@ -21,3 +21,4 @@ const BackVideo = () => {
 };
 
 export default BackVideo;
+//https://vrlandingvideo.s3.ap-northeast-2.amazonaws.com/VR+background.mp4

@@ -67,6 +67,16 @@ const Video = () => {
           url="https://youtu.be/ZaBi4jfEOp8"
           width="50vw"
           height="30vw"
+          config={{
+            file: {
+              forceHLS: true,
+              hlsOptions: {
+                xhrSetup: function (xhr, url) {
+                  xhr.withCredentials = true; // send cookies
+                },
+              },
+            },
+          }}
         />
       </VideoPlayWrapper>
       <LineSizeFour marginTop={"2vw"}>
@@ -106,3 +116,6 @@ const Video = () => {
 };
 
 export default Video;
+//https://vrlandingvideo.s3.ap-northeast-2.amazonaws.com/VR+background.mp4
+
+//        url = "https://youtu.be/ZaBi4jfEOp8";

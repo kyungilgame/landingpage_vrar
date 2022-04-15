@@ -24,13 +24,13 @@ const FirstLine = styled.div`
 const SecondLine = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 4vw;
-  color: #101010;
+  color: white;
 `;
 
 const SecondLineTwo = styled.div`
   font-family: "Pretendard-Regular";
   font-size: 1.5vw;
-  color: #101010;
+  color: white;
   margin-top: 2vw;
 `;
 
