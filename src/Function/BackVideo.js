@@ -15,7 +15,7 @@ const BackVideo = () => {
         top: "10vw",
       }}
     >
-      <source src={BackVideoFile} type="video/mp4" />{" "}
+      <source src={BackVideoFile} type="video/mp4" />
     </video>
   );
 };

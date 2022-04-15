@@ -24,13 +24,13 @@ const FirstLine = styled.div`
 const SecondLine = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 4vw;
-  color: white;
+  color: #101010;
 `;
 
 const SecondLineTwo = styled.div`
   font-family: "Pretendard-Regular";
   font-size: 1.5vw;
-  color: white;
+  color: #101010;
   margin-top: 2vw;
 `;
 
@@ -171,8 +171,8 @@ const ContentsOne = () => {
         </div>
         <FirstLine>쉽고 빠르게,</FirstLine>
         <FirstLine>국내 최단기 개발자 취업 솔루션</FirstLine>
-        <SecondLine>'메타버스 월드'</SecondLine>
-        <SecondLine>게임 기획자 부트캠프</SecondLine>
+        <SecondLine>VR콘텐츠 전문가</SecondLine>
+        <SecondLine> 부트캠프</SecondLine>
         <SecondLineTwo>
           24주 만에 여러분은 협업에서 일할 수 있는 실무 전문가가 될 수 있습니다.
         </SecondLineTwo>
@@ -217,19 +217,19 @@ const ContentsOne = () => {
             <FirstLineInnerBox>VR 5기 챌린저 모집</FirstLineInnerBox>
             <InnerContentsBox
               title={"기간"}
-              duration={"2022.04.18 ~ 2022.12.27"}
+              duration={"2022.05.09 ~ 2022.11.16"}
             ></InnerContentsBox>
             <InnerContentsBox
               title={"시간"}
-              duration={"AM 09:00 ~ PM 18:00"}
+              duration={"15:30 ~ 21:50"}
             ></InnerContentsBox>
             <InnerContentsBox
               title={"모집마감"}
-              duration={"2022.04.15"}
+              duration={"2022.05.04"}
             ></InnerContentsBox>
             <InnerContentsBox
               title={"합격자 발표일"}
-              duration={"2022.04.15"}
+              duration={"2022.05.06"}
             ></InnerContentsBox>
             <LastLineInnerBox
               as={"a"}
