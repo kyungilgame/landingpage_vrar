@@ -18,6 +18,10 @@ import NewRoomImage from "../Image/NewRoomImage.png";
 import NewFireImage from "../Image/NewFireImage.png";
 import NewBirdImage from "../Image/NewBirdImage.png";
 
+import ReactPlayer from "react-player/youtube";
+
+import BackVideoFile from "../Video/flefibird.mp4";
+
 const ContentsTwoContainer = styled.div`
   width: 100%;
   height: 230vw;
@@ -332,6 +336,16 @@ const NewTextSizeThree = styled.div`
   color: black;
 `;
 
+const VideoPlayWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: #ededed;
+  margin-top: 2vw;
+`;
+
 const ContentsTwo = () => {
   return (
     <ContentsTwoContainer>
@@ -479,17 +493,31 @@ const ContentsTwo = () => {
               style={{
                 width: "50%",
                 height: "100%",
-                backgroundSize: "contain",
-                backgroundPosition: "center center",
-                backgroundRepeat: "no-repeat",
-                backgroundImage: `url(${NewBirdImage})`,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
-            ></div>
+            >
+              <VideoPlayWrapper>
+                <div
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <video loop autoPlay muted width={"70%"} style={{}}>
+                    <source src={BackVideoFile} type="video/mp4" />
+                  </video>
+                </div>
+              </VideoPlayWrapper>
+            </div>
             <div
               style={{
                 width: "50%",
                 height: "100%",
-
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
@@ -561,6 +589,7 @@ const ContentsTwo = () => {
                 fontFamily: "Pretendard-Regular",
                 fontSize: "1.2vw",
                 padding: "3vw",
+                marginTop: "1vw",
               }}
             >
               <text>게임은 복합적인 구조를 가지고 있어</text>
