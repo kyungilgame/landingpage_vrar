@@ -9,7 +9,7 @@ const HeaderContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: white;
 `;
 
 const HeaderRight = styled.button`
@@ -22,7 +22,7 @@ const HeaderRight = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0d7377;
+  background-color: #7900ff;
   text-decoration: none;
   margin-right: 3vw;
 `;

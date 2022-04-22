@@ -12,6 +12,7 @@ import MobileContentsFive from "../Component/MobileContentsFive";
 import MobileFAQBoard from "../Component/MobileFAQBoard";
 import MobileFooter from "../Component/MobileFooter";
 import MobileBottomCTABar from "../Component/MobileBottomCTABar";
+import BackVideo from "../Function/BackVideo";
 
 import MobileKakao from "../Image/MobileKakao.png";
 import MobileTell from "../Image/MobileTell.png";
@@ -55,13 +56,14 @@ function MobileContainer() {
   return (
     <AppContainer>
       <MobileHeader />
+      <BackVideo />
       <MobileContentsOne></MobileContentsOne>
       <MobileContentsTwo></MobileContentsTwo>
-      <MobileTypoGraphy></MobileTypoGraphy>
       <MobileContentsThree></MobileContentsThree>
+      <MobileTypoGraphy></MobileTypoGraphy>
       <MobileContentsFour></MobileContentsFour>
       <MobileVideo></MobileVideo>
-      <MobileContentsFive></MobileContentsFive>
+      {/* <MobileContentsFive></MobileContentsFive> */}
       <MobileFAQBoard></MobileFAQBoard>
       <MobileFooter></MobileFooter>
       <MobileBottomCTABar></MobileBottomCTABar>

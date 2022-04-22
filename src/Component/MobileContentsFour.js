@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import "../styles/css/App.css";
 
-import ArrowImage from "../Image/ArrowBlack.png";
+import ArrowImage from "../Image/ArrowWhite.png";
 
 const ContentsFourContainer = styled.div`
   width: 100%;
@@ -61,9 +61,9 @@ const BlackBox = styled.div`
 const SupplyBox = styled.button`
   font-family: "Pretendard-Bold";
   margin-top: 2vw;
-  width: 45vw;
+  width: 55vw;
   height: 6vw;
-  background-color: #00ffd6;
+  background-color: #7900ff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -84,10 +84,10 @@ const MobileContentsFour = () => {
   return (
     <ContentsFourContainer>
       <TextStyleOne marginTop={"7vw"}>
-        <text style={{ color: "#00ffd6" }}>아래의 자격을 갖췄다면 </text>
+        <text style={{ color: "white" }}>아래의 자격을 갖췄다면 </text>
       </TextStyleOne>
       <TextStyleOne>
-        <text style={{ color: "#00ffd6" }}>지원</text>
+        <text style={{ color: "white" }}>지원</text>
         <text style={{ color: "white" }}>하세요</text>
       </TextStyleOne>
       <div
@@ -101,7 +101,7 @@ const MobileContentsFour = () => {
       >
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>국민내일배움카드</text>
+            <text style={{ color: "#fdff6b" }}>국민내일배움카드</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>발급이 가능한 분</text>
@@ -109,7 +109,7 @@ const MobileContentsFour = () => {
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>오전 9시부터 오후 6시까지</text>
+            <text style={{ color: "#fdff6b" }}>오전 9시부터 오후 6시까지</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>풀타임 학습이 가능한 분</text>
@@ -126,7 +126,7 @@ const MobileContentsFour = () => {
       >
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>흥미가 아니라</text>
+            <text style={{ color: "#fdff6b" }}>흥미가 아니라</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>취업을 위해 전력질주 하실 분</text>
@@ -134,7 +134,7 @@ const MobileContentsFour = () => {
         </BlackBox>
         <BlackBox>
           <TextStyleTwo>
-            <text style={{ color: "#00ffd6" }}>지금이 마지막이라는</text>
+            <text style={{ color: "#fdff6b" }}>지금이 마지막이라는</text>
           </TextStyleTwo>
           <TextStyleTwo>
             <text style={{ color: "white" }}>절박감으로 도전하실 분</text>
@@ -150,15 +150,15 @@ const MobileContentsFour = () => {
         </text>
       </TextStyleFour>
       <TextStyleThree>
-        <text style={{ color: "#00ffd6" }}>
-          여러분을 위한 전화 안내 서포터를 통해 쉽고 빠르게 신청하세요!
+        <text style={{ color: "#fdff6b" }}>
+          전문 상담사를 통해 친절히 상담드리겠습니다
         </text>
       </TextStyleThree>
-      <SupplyBox as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
+      <SupplyBox as={"a"} href={"https://forms.gle/rZwjvPLmmkinMGN87"}>
         <text
           style={{
             fontSize: "3.5vw",
-            color: "#101010",
+            color: "white",
             marginLeft: "0.5vw",
           }}
         >

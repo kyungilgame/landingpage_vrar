@@ -3,6 +3,8 @@ import "../styles/css/App.css";
 
 import Typed from "react-typed";
 
+import MobilePurpleBack from "../Image/MobilePurpleBack.png";
+
 const TypoGraphyContainer = styled.div`
   width: 100%;
   height: 35vw;
@@ -10,7 +12,11 @@ const TypoGraphyContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #00ffd6;
+  background-color: #7900ff;
+  background-size: contain;
+  background-image: url(${MobilePurpleBack});
+  background-position: center center;
+  background-repeat: no-repeat;
 `;
 
 const LineText = styled.div`
@@ -25,7 +31,7 @@ const MobileTypoGraphy = () => {
   return (
     <TypoGraphyContainer>
       <div style={{ width: "60vw", marginLeft: "8vw" }}>
-        <LineText>
+        <LineText style={{ color: "white" }}>
           <text>부트캠프 수강 후 여러분들은</text>
         </LineText>
       </div>
@@ -39,13 +45,11 @@ const MobileTypoGraphy = () => {
       >
         <Typed
           strings={[
-            "메타버스 건축가",
-            "아바타 플랫폼 기획자",
-            "XR콘텐츠 기획자",
-            "융합 복합 콘텐츠 기획자",
-            "맞춤형 게임 프로그래머",
-            "게임 기획자",
-            "메타버스 크리에이터",
+            "가상증강현실 콘텐츠 제작 전문가",
+            "재난,방재,건설 콘텐츠 제작 전문가",
+            "의료,재활 콘텐츠 제작 전문가",
+            "게임 콘텐츠 제작 전문가",
+            "시뮬레이션 콘텐츠 제작 전문가",
           ]}
           typeSpeed={40}
           backSpeed={50}
@@ -59,17 +63,17 @@ const MobileTypoGraphy = () => {
               height: "6vw",
               border: "solid",
               borderColor: "gray",
-              boxShadow: "0.1vw 0.1vw 0.1vw 0.1vw #00ffd6",
+              boxShadow: "0.1vw 0.1vw 0.1vw 0.1vw #7900ff",
               paddingTop: "1vw", // placeholder 상하 위치 조절
-              fontSize: "4vw",
+              fontSize: "3.5vw",
             }}
           />
         </Typed>
-        <LineText>
+        <LineText style={{ color: "white" }}>
           <text style={{ marginLeft: "0.5vw" }}>가</text>
         </LineText>
       </div>
-      <LineText>
+      <LineText style={{ color: "white" }}>
         <text>될 수 있습니다!</text>
       </LineText>
     </TypoGraphyContainer>

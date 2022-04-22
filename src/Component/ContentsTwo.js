@@ -177,7 +177,7 @@ const GreenBoxWrapperOne = styled.div`
   justify-content: flex-start;
   align-items: center;
   margin-left: 3vw;
-  background-size: 6vw 3vw;
+  background-size: 12vw 2vw;
   background-image: url(${ShortLine});
   background-position: right 50% bottom 70%;
   background-repeat: no-repeat;

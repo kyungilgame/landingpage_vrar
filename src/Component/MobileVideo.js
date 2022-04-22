@@ -21,7 +21,7 @@ const LineSizeTwo = styled.div`
 
 const LineSizeThree = styled.div`
   font-family: "Pretendard-ExtraBold";
-  font-size: 7vw;
+  font-size: 4.5vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -42,7 +42,7 @@ const VideoContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: white;
 `;
 
 const VideoPlayWrapper = styled.div`
@@ -58,40 +58,37 @@ const VideoPlayWrapper = styled.div`
 const MobileVideo = () => {
   return (
     <VideoContainer>
-      <LineSizeOne marginTop={"5vw"}>도전하세요!</LineSizeOne>
+      <LineSizeOne marginTop={"5vw"}>NHK 뉴스에 방영되었던</LineSizeOne>
       <LineSizeTwo>
-        여러분도 <text style={{ color: "#0d7377" }}>할 수 있습니다</text>
+        <text style={{ color: "#7900ff" }}>VR콘텐츠 전문가 과정</text>
       </LineSizeTwo>
       <VideoPlayWrapper>
         <ReactPlayer
-          url="https://youtu.be/dR8YaZLBmTQ"
+          url="https://youtu.be/ZaBi4jfEOp8"
           width="100%"
           height="100%"
         />
       </VideoPlayWrapper>
-      <LineSizeFour marginTop={"3vw"}>
-        <text style={{ color: "#353535" }}>메타버스 신산업 전문가 </text>
-        <text style={{ color: "#101010" }}>
-          4만명, 육성 전문기업 220개 지원
+      <LineSizeFour marginTop={"2vw"}>
+        <text style={{ color: "#101010", fontSize: "3vw" }}>
+          전국 4026개 훈련기관 중
         </text>
       </LineSizeFour>
-      <LineSizeFour>
-        <text style={{ color: "#353535", marginLeft: "0.5vw" }}>
-          관계부처 합동 '메타버스 신산업 선도전략'
-        </text>
-      </LineSizeFour>
+
       <LineSizeThree marginTop={"2vw"}>
         <div
           style={{
             width: "70vw",
             height: "6vw",
-            backgroundColor: "#101010",
+            backgroundColor: "#7900ff",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <text style={{ color: "#00ffd6" }}>K-DIGITAL TRAINING</text>
+          <text style={{ color: "white" }}>
+            상위 1% 내에 속하는 디지털 교육기관!
+          </text>
         </div>
       </LineSizeThree>
 

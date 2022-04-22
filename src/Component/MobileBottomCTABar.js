@@ -38,14 +38,14 @@ const SecondLine = styled.div`
 const ThirdLine = styled.div`
   font-family: "Pretendard-ExtraBold";
   font-size: 3vw;
-  color: #101010;
+  color: white;
 `;
 
 const ApplyButton = styled.button`
   width: 65vw;
   height: 5vw;
-  background-color: #00ffd6;
-  border-color: #00ffd6;
+  background-color: #7900ff;
+  border-color: #7900ff;
   border-radius: 3vw;
   margin-top: 0.5vw;
   display: flex;
@@ -76,7 +76,7 @@ const XImageRight = styled.div`
   transform: rotate(-45deg);
 `;
 
-const dday = new Date("April 15, 2022, 0:00:00").getTime();
+const dday = new Date("May 9, 2022, 0:00:00").getTime();
 
 const today = new Date().getTime(); // 밀리 초 단위
 const gap = dday - today;
@@ -112,7 +112,7 @@ const MobileBottomCTABar = () => {
           }}
         >
           <FirstLine>
-            <text style={{ color: "#00ffd6" }}>수강료</text>
+            <text style={{ color: "#7900ff" }}>수강료</text>
           </FirstLine>
           <FirstLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
@@ -120,7 +120,7 @@ const MobileBottomCTABar = () => {
             </text>
           </FirstLine>
           <FirstLine>
-            <text style={{ color: "#00ffd6", marginLeft: "1.5vw" }}>0원!!</text>
+            <text style={{ color: "#7900ff", marginLeft: "1.5vw" }}>0원!!</text>
           </FirstLine>
         </div>
         <div
@@ -134,7 +134,7 @@ const MobileBottomCTABar = () => {
           }}
         >
           <SecondLine>
-            <text style={{ color: "#00ffd6" }}>수강신청 마감까지</text>
+            <text style={{ color: "#7900ff" }}>수강신청 마감까지</text>
           </SecondLine>
           <SecondLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
@@ -148,7 +148,7 @@ const MobileBottomCTABar = () => {
             </text>
           </SecondLine>
         </div>
-        <ApplyButton as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
+        <ApplyButton as={"a"} href={"https://forms.gle/rZwjvPLmmkinMGN87"}>
           <ThirdLine>수강신청하기{">>"}</ThirdLine>
         </ApplyButton>
       </div>

@@ -23,11 +23,7 @@ function App({ onOpenFirstModal, onOpenSecondModal }) {
         ></DesktopContainer>
       </Desktop>
       <Mobile>
-        {/* <MobileContainer></MobileContainer> */}
-        <DesktopContainer
-          onOpenFirstModal={onOpenFirstModal}
-          onOpenSecondModal={onOpenSecondModal}
-        ></DesktopContainer>
+        <MobileContainer></MobileContainer>
       </Mobile>
     </div>
   );

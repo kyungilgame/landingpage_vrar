@@ -9,7 +9,7 @@ const ContentsThreeContainer = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: white;
 `;
 
 const LineTextOne = styled.div`
@@ -80,30 +80,21 @@ const SectionPage = (sectionState) => {
     return (
       <div
         style={{
-          width: "100%",
+          width: "80%",
           height: "100%",
           backgroundColor: "#f4f4f4",
         }}
       >
-        <LineTextFive marginTop={"2vw"}>메타버스 바로 알기</LineTextFive>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>
-            메타버스 플랫폼을 배우고 이해합니다.
-          </text>
-        </LineTextThree>
+        <LineTextFive marginTop={"2vw"}>C++ 문법</LineTextFive>
 
-        <LineTextFour marginTop={"2vw"}>메타버스 개념과 시장전망</LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          메타버스에서 발생할 수 있는 가상경제 모델에 대해 학습
+        <LineTextFour marginTop={"2vw"}>
+          프로그래밍 C언어와 C++익히기
         </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>기초문법 익히기</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>함수 및 포인터란?</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>객체지향 프로그래밍이란?</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          Agile 기반의 프로젝트 관리 환경 구축에 대해 학습
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          로블록스에서 사용되는 Lua Script 활용에 대해 학습
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          메타버스 플랫폼 개발에 필요한 기초 프로그래밍 학습
+          ☆콘솔로 만드는 TextRPG 프로젝트
         </LineTextFour>
       </div>
     );
@@ -111,87 +102,80 @@ const SectionPage = (sectionState) => {
     return (
       <div
         style={{
-          width: "100%",
+          width: "80%",
           height: "100%",
           backgroundColor: "#f4f4f4",
         }}
       >
-        <LineTextFive marginTop={"2vw"}>메타버스 컨텐츠의 이해</LineTextFive>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>
-            메타버스 컨텐츠와 스토리텔링을 기획합니다.{" "}
-          </text>
-        </LineTextThree>
+        <LineTextFive marginTop={"2vw"}>유니티 기초</LineTextFive>
 
-        <LineTextFour marginTop={"2vw"}>
-          컨셉 기획서와 시나리오 작성
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>세계관 캐릭터 설정</LineTextFour>
-        <LineTextFour marginTop={"1vw"}>마케팅 기초 이론과 실무</LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          마케팅 제안과 프레젠테이션
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          개발 프로젝트의 관리 요소 분석
-        </LineTextFour>
+        <LineTextFour marginTop={"2vw"}>C++과 C#문법의 차이</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>유니티 기본 툴 다루기</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>플레피 버드 에셋 분석 </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>☆플레피 버드 커스터마이징</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>UGUI 를 통한 UI 제어</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>☆팀 프로젝트 진행</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>☆개인 프로젝트 진행</LineTextFour>
       </div>
     );
   } else if (sectionState === 3) {
     return (
       <div
         style={{
-          width: "100%",
+          width: "80%",
           height: "100%",
           backgroundColor: "#f4f4f4",
         }}
       >
         <LineTextFive marginTop={"2vw"}>
-          메타버스 시스템과 UI/UX 기획
+          C# 중급문법 및 유니티 최적화
         </LineTextFive>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>
-            로블록스 스튜디오의 스크립트 활용과 공간을 구축합니다.
-          </text>
-        </LineTextThree>
 
-        <LineTextFour marginTop={"2vw"}>디바이스 환경의 이해</LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          컨텐츠와 플랫폼의 시스템 설계
+        <LineTextFour marginTop={"2vw"}>
+          Getter Setter와의 차이점과 사용
         </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>컨텐츠의 UI/UX 분석</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          컨텐츠와 플랫폼의 UI 요소 설계
+          인터페이스를 통한 효율적인 설계 방법
         </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          외부클래스에 대한 접근 방식, 자신만의 라이브러리화, 함수의 콜백과,
+          체인
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          디자인패턴인 옵저버패턴을 통한 이벤트 리스너의 처리
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          클래스, 함수 들의 메타적인 데이터를 다루는 기법
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          메모리 단편화와 그것을 방지하는 방법에 대한 최적화 기법
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          프로파일러를 통해 메모리의 불필요한 할당을 발견, 조치할 수 있는 연습
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>유니티 최적화</LineTextFour>
       </div>
     );
   } else if (sectionState === 4) {
     return (
       <div
         style={{
-          width: "100%",
+          width: "80%",
           height: "100%",
           backgroundColor: "#f4f4f4",
         }}
       >
-        <LineTextFive marginTop={"2vw"}>
-          Unity 3D 엔진과 공간 ·서비스의 기획/운영
-        </LineTextFive>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>
-            Unity 3D 개발 환경을 이해합니다.
-          </text>
-        </LineTextThree>
-
-        <LineTextSix marginTop={"2vw"}>
-          플랫폼 공간 ·도구 ·공간 이벤트 ·밸런스 설계
-        </LineTextSix>
-        <LineTextSix marginTop={"1vw"}>
-          블록체인과 NFT의 이해, 활용, 설계
-        </LineTextSix>
-        <LineTextSix marginTop={"1vw"}>
-          메타버스 서비스의 운영 기획과 플랫폼 설계
-        </LineTextSix>
-        <LineTextSix marginTop={"1vw"}>메타버스 서비스 개선안 도출</LineTextSix>
+        <LineTextFive marginTop={"2vw"}>VR 심화</LineTextFive>
+        <LineTextFour marginTop={"2vw"}>
+          Oculus Intergration SDK 분석 (Oculus Intergartion SDK)
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          VR 룸 만들어 오브젝트 제어
+        </LineTextFour>
+        <LineTextFour>
+          (VR의 특성과 한계, VR에 필요한 사용자경험 UX와 그것을 반영한 UI 설계)
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>☆VR 팀프로젝트 진행</LineTextFour>
       </div>
     );
   } else if (sectionState === 5) {
@@ -272,14 +256,16 @@ const MobileContentsThree = () => {
   const [sectionState, setSectionState] = useState(1);
   return (
     <ContentsThreeContainer>
-      <LineTextOne marginTop={"5vw"}>불필요한 내용은 빼고</LineTextOne>
-      <LineTextOne>
-        <text style={{ color: "#0d7377" }}>취업에 꼭 필요한 내용</text>으로
+      <LineTextOne marginTop={"5vw"}>
+        국내 다양한 직종으로 취업가능한
       </LineTextOne>
-      <LineTextOne> 채웠습니다</LineTextOne>
+      <LineTextOne>
+        <text style={{ color: "#7900ff" }}>'VR콘텐츠 제작 전문가'</text>커리큘럼
+      </LineTextOne>
+
       <div
         style={{
-          backgroundColor: "#0d7377",
+          backgroundColor: "#7900ff",
           width: "100%",
           height: "5vw",
           textAlign: "center",
@@ -291,21 +277,9 @@ const MobileContentsThree = () => {
           <text
             style={{
               color: "white",
-              letterSpacing: "0.5vw",
-              wordSpacing: "1vw",
             }}
           >
-            게임 개발사 대표가
-          </text>
-          <text
-            style={{
-              color: "#aecbcc",
-              letterSpacing: "0.5vw",
-              wordSpacing: "1vw",
-              marginLeft: "1vw",
-            }}
-          >
-            직접 설계한 40주 커리큘럼
+            불필요한 과정은 빼고 취업에 꼭 필요한 내용들로만 채웠습니다
           </text>
         </LineTextTwo>
         <div
@@ -321,7 +295,7 @@ const MobileContentsThree = () => {
           <div
             style={{
               width: "100%",
-              height: "15vw",
+              height: "10vw",
               display: "flex",
               flexDirection: "column",
               justifyContent: "space-around",
@@ -343,7 +317,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(1);
                   }}
-                  backgroundColor={"#0d7377"}
+                  backgroundColor={"#7900ff"}
                 >
                   Section 1
                 </SectionBox>
@@ -352,7 +326,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(1);
                   }}
-                  backgroundColor={"#aecbcc"}
+                  backgroundColor={"#d8b5ff"}
                 >
                   Section 1
                 </SectionBox>
@@ -362,7 +336,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(2);
                   }}
-                  backgroundColor={"#0d7377"}
+                  backgroundColor={"#7900ff"}
                 >
                   Section 2
                 </SectionBox>
@@ -371,7 +345,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(2);
                   }}
-                  backgroundColor={"#aecbcc"}
+                  backgroundColor={"#d8b5ff"}
                 >
                   Section 2
                 </SectionBox>
@@ -381,7 +355,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(3);
                   }}
-                  backgroundColor={"#0d7377"}
+                  backgroundColor={"#7900ff"}
                 >
                   Section 3
                 </SectionBox>
@@ -390,7 +364,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(3);
                   }}
-                  backgroundColor={"#aecbcc"}
+                  backgroundColor={"#d8b5ff"}
                 >
                   Section 3
                 </SectionBox>
@@ -400,7 +374,7 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(4);
                   }}
-                  backgroundColor={"#0d7377"}
+                  backgroundColor={"#7900ff"}
                 >
                   Section 4
                 </SectionBox>
@@ -409,60 +383,9 @@ const MobileContentsThree = () => {
                   onClick={() => {
                     setSectionState(4);
                   }}
-                  backgroundColor={"#aecbcc"}
+                  backgroundColor={"#d8b5ff"}
                 >
                   Section 4
-                </SectionBox>
-              )}
-            </div>
-            <div
-              style={{
-                width: "100%",
-                height: "7vw",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              {sectionState === 5 ? (
-                <SectionBox
-                  onClick={() => {
-                    setSectionState(5);
-                  }}
-                  backgroundColor={"#0d7377"}
-                >
-                  Section 5
-                </SectionBox>
-              ) : (
-                <SectionBox
-                  onClick={() => {
-                    setSectionState(5);
-                  }}
-                  backgroundColor={"#aecbcc"}
-                >
-                  Section 5
-                </SectionBox>
-              )}
-              {sectionState === 6 ? (
-                <SectionBox
-                  onClick={() => {
-                    setSectionState(6);
-                  }}
-                  backgroundColor={"#0d7377"}
-                  style={{ marginLeft: "4vw" }}
-                >
-                  Section 6
-                </SectionBox>
-              ) : (
-                <SectionBox
-                  onClick={() => {
-                    setSectionState(6);
-                  }}
-                  backgroundColor={"#aecbcc"}
-                  style={{ marginLeft: "4vw" }}
-                >
-                  Section 6
                 </SectionBox>
               )}
             </div>
@@ -473,6 +396,8 @@ const MobileContentsThree = () => {
               height: "50vw",
               display: "flex",
               flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
             {SectionPage(sectionState)}
