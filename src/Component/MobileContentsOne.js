@@ -145,7 +145,7 @@ const MobileContentsOne = () => {
           <FirstLineInnerBox>VR 5기 챌린처 모집</FirstLineInnerBox>
           <InnerContentsBox
             title={"모집기간"}
-            duration={"2022.05.09 ~ 2022.11.16"}
+            duration={"2022.05.23 ~ 2022.11.30"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
@@ -153,11 +153,11 @@ const MobileContentsOne = () => {
           ></InnerContentsBox>
           <InnerContentsBox
             title={"마감일"}
-            duration={"2022.05.04"}
+            duration={"2022.05.18"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.05.06"}
+            duration={"2022.05.20"}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
