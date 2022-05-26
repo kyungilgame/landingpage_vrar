@@ -76,7 +76,7 @@ const XImageRight = styled.div`
   transform: rotate(-45deg);
 `;
 
-const dday = new Date("May 23, 2022, 0:00:00").getTime();
+const dday = new Date("June 3, 2022, 0:00:00").getTime();
 
 const today = new Date().getTime(); // 밀리 초 단위
 const gap = dday - today;
